@@ -8,10 +8,10 @@ This repository implements **flow matching** to transform a 3D Gaussian distribu
 
 Flow matching is a generative modeling technique that learns a vector field to transport samples from a source distribution to a target distribution. In this project:
 
-- **Source Distribution**: A 3D standard Gaussian $ \mathcal{N}(0, I) $.
+- **Source Distribution**: A 3D standard Gaussian $$ \mathcal{N}(0, I) $$.
 - **Target Distribution**: A multi-modal Gaussian distribution in 3D space.
 - **Method**: A neural network (MLP) parameterizes the vector field, which is trained to minimize the difference between the predicted and true velocities along the flow path.
-- **Simulation**: The learned vector field is used to simulate particle trajectories from $ t=0 $ to $ t=1 $ using the Euler method.
+- **Simulation**: The learned vector field is used to simulate particle trajectories from $$ t=0 $$ to $$ t=1 $$ using the Euler method.
 - **Visualization**: 3D scatter plots illustrate the transformation of the distribution.
 
 This project demonstrates the power of flow matching for distribution transformation and provides a clear, visual way to understand the process.
@@ -88,7 +88,7 @@ This will:
 
   $$ \frac{dx}{dt} = v(x, t) $$
 
-  from $ t=0 $ to $ t=1 $.
+  from $$ t=0 $$ to $$ t=1 $$.
 
 - **Visualization**: Matplotlib is used to create 3D scatter plots of particle positions at various time steps.
 
