@@ -104,7 +104,3 @@ This project is licensed under the MIT License.
 
 - Inspired by recent work on flow matching for generative modeling.
 - Thanks to the PyTorch and Matplotlib communities for their excellent tools.
-
-## Contact
-
-Feel free to reach out via GitHub issues or connect with me on [LinkedIn](https://www.linkedin.com/in/inventwithdean) for questions or collaboration opportunities!
