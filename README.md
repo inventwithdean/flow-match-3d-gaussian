@@ -1,7 +1,6 @@
 # Flow-Match-3d-Gaussian: Transforming a Gaussian into a Multi-Modal Gaussian with Flow Matching
 
-![Flow Matching Visualization](![simulation](https://github.com/user-attachments/assets/a594c240-067b-400d-a9c7-1f27c9cbec5e)
-)
+![simulation](https://github.com/user-attachments/assets/a594c240-067b-400d-a9c7-1f27c9cbec5e)
 
 This repository implements **flow matching** to transform a 3D Gaussian distribution into a multi-modal Gaussian distribution using a neural network to approximate the marginal vector field. The transformation is achieved by simulating particle flow via the Euler method, and the results are visualized in 3D to show the evolution of the distribution over time.
 
@@ -25,8 +24,7 @@ This project demonstrates the power of flow matching for distribution transforma
 ### Training Loss
 The training loss curve shows the convergence of the neural network as it learns the vector field:
 
-![Training Loss](![loss_curve](https://github.com/user-attachments/assets/eba5c125-fb7e-4c94-9964-35e3cbda7dd8)
-)
+![loss_curve](https://github.com/user-attachments/assets/eba5c125-fb7e-4c94-9964-35e3cbda7dd8)
 
 ## Installation
 
